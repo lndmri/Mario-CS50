@@ -1,0 +1,35 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+Time for to sort a list of 50000 numbers sorted, being the best case scenario, looks to be of time complexity n
+when compared to the time it takes to sort 50000 random number or 50000 reversed numbers.
+random50000.txt 	7.894
+reversed50000.txt  	5.925
+sorted50000.txt	    0.303
+
+This time proportion makes me think that code is bubble sort
+
+
+sort2 uses: Merge Sort
+
+How do you know?:
+Merge sort seems is the faster method since the lower and upper bound are in the order of n*log(n)
+The times gotten for sorting 50000 numbers (sorted, reversed and random) is relatevely the same.
+Because in selection sort the upper bound and lower bound match, this algorithm has to be the merge sort since it
+makes the best time of the 3 argorithms.
+
+random50000.txt 	0.438
+reversed50000.txt  	0.369
+sorted50000.txt		0.387
+
+
+sort3 uses: Selection Sort
+
+How do you know?:
+For selection sort the upper and lower bound are in the order of n squared so the values of sorting 5000 numbers (sorted, reversed and random)
+should be close to each other. As it took more time than the sort2 algorithm this needs to be the Selection Sort algorithm
+
+random50000.txt 	3.469
+reversed50000.txt  	3.582
+sorted50000.txt		3.209
+
